@@ -1,6 +1,6 @@
 #include"board.h"
 #include<iostream>
-usim
+using namespace std;
 board::board()
 {
     selected_row = -1;
