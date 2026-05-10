@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|solutionrelative:piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|solutionrelative:piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|solutionrelative:rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3546EA38-5382-4DAA-9073-61DB7C1C730A}|oopfinalsemesterproject.vcxproj|solutionrelative:pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pawn.h",
+              "DocumentMoniker": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\pawn.h",
+              "RelativeDocumentMoniker": "pawn.h",
+              "ToolTip": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\pawn.h",
+              "RelativeToolTip": "pawn.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-10T15:13:29.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rook.h",
+              "DocumentMoniker": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\rook.h",
+              "RelativeDocumentMoniker": "rook.h",
+              "ToolTip": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\rook.h",
+              "RelativeToolTip": "rook.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-10T15:12:38.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "piece.cpp",
+              "DocumentMoniker": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.cpp",
+              "RelativeDocumentMoniker": "piece.cpp",
+              "ToolTip": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.cpp",
+              "RelativeToolTip": "piece.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-10T14:50:50.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "piece.h",
+              "DocumentMoniker": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.h",
+              "RelativeDocumentMoniker": "piece.h",
+              "ToolTip": "Z:\\new vs code\\projects of vs new\\oopfinalsemesterproject\\piece.h",
+              "RelativeToolTip": "piece.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-10T14:45:26.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
