@@ -29,5 +29,5 @@ string piece::getsymbol()
 }
 bool piece::isvalid(int newrow, int newcol, board* board)
 {
-    return true;
+    return false;
 }

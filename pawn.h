@@ -1,5 +1,6 @@
 #pragma once
 #include "piece.h"
+using namespace std;
 class pawn : public piece
 {
 public:
