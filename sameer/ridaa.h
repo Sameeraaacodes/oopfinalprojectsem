@@ -7,7 +7,7 @@ bool isCheckMate(string color);
 bool wouldCauseCheck(int oldRow,
     int oldCol,
     int newRow,
-    int newCol);
+    int newCol;
 
 bool isPathClear(int startRow,
     int startCol,
