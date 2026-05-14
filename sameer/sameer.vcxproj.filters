@@ -30,6 +30,9 @@
     <ClInclude Include="board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ridaa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sameer.cpp">
@@ -45,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ridaa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
