@@ -1,5 +1,6 @@
 #include "piece.h"
 #include "board.h"
+#include <stdexcept>
 piece::piece(string color, int rows, int cols)
 {
     this->color = color;
@@ -29,5 +30,10 @@ string piece::getsymbol()
 }
 bool piece::isvalid(int newrow, int newcol, board* board)
 {
-    return false;
+    if (newrow < 0 || newrow > 7 || newcol < 0 || newcol > 7)
+    {
+        throw out_of_range("Invalid move: position outside board");
+    }
+
+    return true;
 }
