@@ -1,14 +1,23 @@
 #include "pawn.h"
 #include "board.h"
 #include <cmath>
+#include <stdexcept>
+
 pawn::pawn(string color, int rows, int cols)
     : piece(color, rows, cols)
 {
 }
+
 bool pawn::isvalid(int newrow, int newcol, board* board)
 {
+    if (newrow < 0 || newrow > 7 || newcol < 0 || newcol > 7)
+    {
+        throw out_of_range("Pawn move outside board");
+    }
+
     int row_change = newrow - rows;
     int column_change = newcol - cols;
+
     if (color == "white")
     {
         if (column_change == 0 &&
@@ -16,7 +25,8 @@ bool pawn::isvalid(int newrow, int newcol, board* board)
             board->getPiece(newrow, newcol) == NULL)
         {
             return true;
-   
+        }
+
         if (rows == 6 &&
             column_change == 0 &&
             row_change == -2 &&

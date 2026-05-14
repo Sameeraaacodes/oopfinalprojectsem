@@ -1,5 +1,6 @@
 #include"board.h"
 #include<iostream>
+#include <stdexcept>
 using namespace std;
 board::board()
 {
@@ -33,7 +34,6 @@ void board::initializeboard()
     chessboard[0][5] = new bishop("black", 0, 5);
     chessboard[0][6] = new knight("black", 0, 6);
     chessboard[0][7] = new rook("black", 0, 7);
-
     chessboard[7][0] = new rook("white", 7, 0);
     chessboard[7][1] = new knight("white", 7, 1);
     chessboard[7][2] = new bishop("white", 7, 2);
@@ -60,13 +60,11 @@ void board::drawboard()
             {
                 DrawRectangle(x, y, 100, 100, DARKBROWN);
             }
-
             if (selected_row == i &&
                 selected_column == j)
             {
                 DrawRectangleLines(x, y, 100, 100, RED);
             }
-
             if (chessboard[i][j] != NULL)
             {
                 string symbol = chessboard[i][j]->getsymbol();
@@ -122,11 +120,12 @@ void board::handlemouseclick()
         {
             piece* selectedPiece =
                 chessboard[selected_row][selected_column];
-
             if (selectedPiece != NULL)
             {
                 if (selectedPiece->isvalid(row, col, this))
                 {
+                    try
+                    {
                     if (chessboard[row][col] != NULL)
                     {
                         if (selectedPiece->getcolor() ==
@@ -161,7 +160,10 @@ void board::handlemouseclick()
                     }
                 }
             }
-
+                catch (out_of_range& e)
+                {
+                    cout << e.what() << endl;
+                }
             piece_selected = false;
             selected_row = -1;
             selected_column = -1;

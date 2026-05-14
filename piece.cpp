@@ -34,6 +34,5 @@ bool piece::isvalid(int newrow, int newcol, board* board)
     {
         throw out_of_range("Invalid move: position outside board");
     }
-
     return true;
 }
